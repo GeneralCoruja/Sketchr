@@ -9,3 +9,28 @@ body {
     margin: 0;
     overflow: hidden
 }
+
+.logo {
+    position: fixed;
+    margin: 50px 50px;
+
+    font-family: "Jua", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+.canvas-tools{
+    position: fixed;
+    right: 50px;
+    top: 50px;
+}
+
+.canvas-tools .tool{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 10px 0px;
+}
+
+.canvas-tools .tool:hover{
+    border: 5px solid black;
+}
